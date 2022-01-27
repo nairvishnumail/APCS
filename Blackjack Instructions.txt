@@ -1,0 +1,99 @@
+How to Play Single Deck Blackjack
+
+
+The main objective of
+Single Deck Blackjack is to get a hand value of 21 or as close as possible to
+21 before the dealer without busting(going over 21). An alternative is to stand
+and have the dealer bust. Before the game starts, you place a bet. Then you and
+the dealer are dealt cards. The dealer is dealt one face up card and one face
+down. You are dealt two face up cards. Based on the cards in front of you and
+the face up card of the dealer you decide whether to stand(stop drawing cards),
+hit(draw more cards), double down(don’t need to code) or split cards(don’t need
+to code). Once the player is done, then the dealer will draw cards until they
+reach a number greater or equal to 17. If they draw anything 22 or above, they
+bust.
+
+
+ 
+
+The Rules
+
+
+The following are the rules for
+playing Single Deck Blackjack:
+
+
+·       
+Only one deck of cards is used. It is shuffled before the
+beginning of each gaming session.
+
+
+·       
+The dealer hits on soft 17(A soft 17 includes an Ace being counted as 11).
+
+
+·       
+The player can split a hand up to three times(no need to code).
+
+
+·       
+Aces can be split and the player gets only one card to each Ace.
+They cannot be re-split. (no need to code)
+
+
+·       
+Blackjack pays 3 to 2.
+
+
+·       
+Wining insurance bets pay 2 to 1(no need to code)
+
+
+·       
+Other winning hands pay 1 to 1.
+
+
+·       
+Ace is either 1 or 11 depending on what benefits the player the
+most
+
+
+·       
+Jack, Queen, King worth 10
+
+
+ 
+
+
+Coding Rules
+
+
+-       
+Must code a 2 player
+game, user vs comp(dealer)
+
+
+-       
+Starting bankrole of 500
+points
+
+
+-       
+Game can go on forever
+unless user ops out or loses all her/his money
+
+
+-       
+Must create and use the
+following objects
+
+
+o   Card( name, suit )
+
+
+o   Deck( array or arraylist of cards, must have a
+shuffle method)
+
+
+o   Player( name(please make name useful in you
+game), bankroll)
