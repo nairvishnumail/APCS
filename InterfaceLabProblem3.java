@@ -12,7 +12,6 @@ Implement yelena in Third
 Run yelena in Main from a variable of type
 Third to make sure that yelena works
 
-Turn in on google classroom Interface3
 */
 
 
